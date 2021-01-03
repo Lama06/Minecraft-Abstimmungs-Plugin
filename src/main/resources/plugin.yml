@@ -1,0 +1,16 @@
+name: MCAbstimmungsPlugin
+version: 1.0.0
+main: io.github.lama06.abstimmung.Abstimmung
+api-version: 1.16
+authors: [ Lama06 ]
+description: Führe auf einem Minecraft Server Abstimmungen durch
+commands:
+  abstimmung:
+    description: Startet eine Abstimmung
+    usage: /abstimmung <Frage>
+  ja:
+    description: Stimmt für Ja ab
+    usage: /ja
+  nein:
+    description: Stimmt für Nein ab
+    usage: /nein
